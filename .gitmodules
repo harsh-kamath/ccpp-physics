@@ -18,3 +18,4 @@
 [submodule "physics/SFC_Models/Land/NoahmpModular/noahmp"]
 	path = physics/SFC_Models/Land/NoahmpModular/noahmp
 	url = https://github.com/harsh-kamath/noahmp.git
+	branch = master
