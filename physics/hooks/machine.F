@@ -28,6 +28,13 @@
       integer, parameter :: kind_phys = kind_sngl_prec
 #endif
 
+! Modular Noah-MP.
+      integer, parameter :: kind_noahmp = kind_phys
+      integer, parameter :: undefined_int = -9999
+      integer, parameter :: undefined_int_neg = -9999
+      real(kind=kind_phys), parameter :: undefined_real = -9999.0_kind_phys
+      real(kind=kind_phys), parameter :: undefined_real_neg = -9999.0_kind_phys
+
       integer, parameter :: kind_io8 = kind_phys                        &! Note kind_io8 is not always 8 bytes
 
 ! Dynamics single precision flag
