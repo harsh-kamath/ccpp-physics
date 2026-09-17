@@ -28,7 +28,7 @@
       integer, parameter :: kind_phys = kind_sngl_prec
 #endif
 
-! Modular Noah-MP.
+! Modular Noah-MP uses the host physics precision and initialization sentinels.
       integer, parameter :: kind_noahmp = kind_phys
       integer, parameter :: undefined_int = -9999
       integer, parameter :: undefined_int_neg = -9999
